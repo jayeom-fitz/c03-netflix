@@ -24,6 +24,8 @@ const requests = {
   fetchDiscoverMovieHorror: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=27`,
   fetchDiscoverMovieRomance: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=10749`,
   fetchDiscoverMovieDocumentary: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=99`,
+  
+  fetchNetflixOriginals: `/discover/tv?api_key=${TMDB_API_KEY}&with_networks=213`,
 };
 
 export default requests;
